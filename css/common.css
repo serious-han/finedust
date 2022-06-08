@@ -1,0 +1,54 @@
+.card {
+    height: 100vh !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 0.05em 0.05em 0.1em rgba(0,0,0,0.6);
+}
+#today {
+    height: calc(100vh - 38px - 120px);
+}
+#today i {
+    font-size: 8em;
+}
+#location {
+    font-size: 1.2em;
+}
+#onecn {
+    font-size: 2em;
+}
+#future {
+    height: 120px;
+    text-align: center;
+}
+#future i {
+    font-size: 2em;
+}
+#future .dt {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#today i.fa-smile,
+#future i.fa-smile {
+    color: #198754;
+}
+#today i.fa-angry,
+#future i.fa-angry {
+    color: #DC3545;
+}
+#two,#three {
+    border-right: 1px solid #ccc;
+}
+
+.sunny {
+    background-image: url(../images/0.jpg);
+}
+.dust {
+    background-image: url(../images/1.jpg);
+}
+
+
+
+
